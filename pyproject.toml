@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repoguard"
+version = "1.0.0"
+description = "Scan a repository for malware, credential theft, API-key phishing, secrets and risky install hooks before you install it."
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+repoguard = "repoguard.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["repoguard*"]
+
+[tool.setuptools.package-data]
+repoguard = ["data/*.txt", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: long-running performance tests"]
+addopts = "-m 'not slow'"
+asyncio_default_fixture_loop_scope = "function"

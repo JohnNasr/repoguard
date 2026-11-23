@@ -1,0 +1,87 @@
+# Well-known historical malicious packages (by name). Only packages that were malicious themselves,
+# not legitimate packages that were briefly hijacked. Format: ecosystem:name (PyPI names PEP 503-normalized).
+# Used offline by DEP002; online, OSV MAL- advisories are authoritative.
+
+# npm - 2017 "hacktask" typosquats (env-var stealers)
+npm:crossenv
+npm:cross-env.js
+npm:babelcli
+npm:d3.js
+npm:fabric-js
+npm:gruntcli
+npm:http-proxy.js
+npm:jquery.js
+npm:mongose
+npm:mssql.js
+npm:mssql-node
+npm:mysqljs
+npm:node-fabric
+npm:node-opensl
+npm:node-openssl
+npm:node-tkinter
+npm:nodecaffe
+npm:nodefabric
+npm:nodeffmpeg
+npm:nodemailer-js
+npm:nodemailer.js
+npm:nodemssql
+npm:noderequest
+npm:nodesass
+npm:nodesqlite
+npm:opencv.js
+npm:openssl.js
+npm:proxy.js
+npm:shadowsock
+npm:sqlite.js
+npm:sqliter
+npm:sqlserver
+npm:tkinter
+# npm - later incidents
+npm:flatmap-stream
+npm:getcookies
+npm:electron-native-notify
+npm:electorn
+npm:loadyaml
+npm:lodashs
+npm:discord.dll
+npm:twilio-npm
+npm:fallguys
+npm:jdb.js
+npm:db-json.js
+npm:peacenotwar
+
+# PyPI - 2017 SK-CSIRT typosquats
+pypi:acqusition
+pypi:apidev-coop
+pypi:bzip
+pypi:crypt
+pypi:django-server
+pypi:pwd
+pypi:setup-tools
+pypi:telnet
+pypi:urlib3
+pypi:urllib
+# PyPI - later incidents
+pypi:colourama
+pypi:python3-dateutil
+pypi:jeilyfish
+pypi:noblesse
+pypi:noblesse2
+pypi:noblessev2
+pypi:genesisbot
+pypi:aryi
+pypi:suffer
+pypi:pytagora
+pypi:pytagora2
+pypi:free-net-vpn
+pypi:free-net-vpn2
+pypi:pymafka
+pypi:pygrata
+pypi:pygrata-utils
+pypi:loglib-modules
+pypi:torchtriton
+pypi:discordcmd
+pypi:ascii2text
+pypi:colorslib
+pypi:httpslib
+pypi:libhttps
